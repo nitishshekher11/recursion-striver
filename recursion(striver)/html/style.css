@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg,#f1f7f6,#181818);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width:700px;
+    backdrop-filter: blur(60px);
+}
+
+table tr th,td{
+    padding: 20px;
+    background-color: #db484830;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+}
+table tr th{
+    color: rgb(255, 255, 255);
+}
